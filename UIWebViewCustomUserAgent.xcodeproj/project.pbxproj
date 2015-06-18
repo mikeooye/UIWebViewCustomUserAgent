@@ -14,6 +14,7 @@
 		28191D8A1B32AEC000B48D54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28191D891B32AEC000B48D54 /* Images.xcassets */; };
 		28191D8D1B32AEC000B48D54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28191D8B1B32AEC000B48D54 /* LaunchScreen.xib */; };
 		28191D991B32AEC000B48D54 /* UIWebViewCustomUserAgentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28191D981B32AEC000B48D54 /* UIWebViewCustomUserAgentTests.m */; };
+		28191DA51B32AEEE00B48D54 /* UIWebView+customUA.m in Sources */ = {isa = PBXBuildFile; fileRef = 28191DA41B32AEEE00B48D54 /* UIWebView+customUA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		28191D921B32AEC000B48D54 /* UIWebViewCustomUserAgentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewCustomUserAgentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28191D971B32AEC000B48D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28191D981B32AEC000B48D54 /* UIWebViewCustomUserAgentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewCustomUserAgentTests.m; sourceTree = "<group>"; };
+		28191DA31B32AEEE00B48D54 /* UIWebView+customUA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+customUA.h"; sourceTree = "<group>"; };
+		28191DA41B32AEEE00B48D54 /* UIWebView+customUA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+customUA.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		28191D701B32AEC000B48D54 = {
 			isa = PBXGroup;
 			children = (
+				28191DA21B32AEDE00B48D54 /* Classes */,
 				28191D7B1B32AEC000B48D54 /* UIWebViewCustomUserAgent */,
 				28191D951B32AEC000B48D54 /* UIWebViewCustomUserAgentTests */,
 				28191D7A1B32AEC000B48D54 /* Products */,
@@ -117,6 +121,15 @@
 				28191D971B32AEC000B48D54 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28191DA21B32AEDE00B48D54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28191DA31B32AEEE00B48D54 /* UIWebView+customUA.h */,
+				28191DA41B32AEEE00B48D54 /* UIWebView+customUA.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				28191D851B32AEC000B48D54 /* ViewController.m in Sources */,
 				28191D821B32AEC000B48D54 /* AppDelegate.m in Sources */,
+				28191DA51B32AEEE00B48D54 /* UIWebView+customUA.m in Sources */,
 				28191D7F1B32AEC000B48D54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

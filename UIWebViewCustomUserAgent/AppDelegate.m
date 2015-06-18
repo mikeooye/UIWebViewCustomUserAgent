@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UIWebView+customUA.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [UIWebView appendUseragent:@"/custom_xxx"];
     return YES;
 }
 
